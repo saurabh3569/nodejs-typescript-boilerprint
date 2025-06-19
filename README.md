@@ -15,21 +15,23 @@ A clean and scalable boilerplate setup for building secure and well-structured *
 
 ```
 
-\|-- .env # Environment variables
-\|-- .gitignore # Files to ignore in Git
-\|-- .prettierrc # Prettier configuration
-\|-- eslint.config.js # ESLint configuration
-\|-- tsconfig.json # TypeScript configuration
-\|-- src
-\|-- index.ts # Entry point
-\|-- configs # Configurations (DB, env)
-\|-- constants # Constants and enums
-\|-- controllers # Route controllers
-\|-- middleware # Express middlewares
-\|-- models # Mongoose/DB models
-\|-- routes # API route definitions
-\|-- utils # Helper utilities
-\|-- validation # Schema validations
+docuchat-ai-api/
+├── src/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── middlewares/
+│   ├── models/
+│   ├── configs/
+│   ├── index.ts
+│   └── app.ts
+├── uploads/
+├── .env
+├── tsconfig.json
+├── package.json
+└── README.md
+
 
 ```
 
